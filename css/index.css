@@ -4,6 +4,7 @@ body {
 }
 .jumbotron {
   background-color: #327DA0;
+  border-radius: 3px !important;
   color: #F8F4F1;
 }
 .jumbotron .jumbo-divider {
@@ -12,6 +13,7 @@ body {
 }
 .me-stretch {
   width: 100%;
+  border-radius: 3px !important;
   /* or whatever is required */
   text-align: center;
   /* ensures the image is always in the h-middle */
@@ -64,15 +66,33 @@ strong {
 .html {
   background-color: #FF5B0A;
 }
+.html-text {
+  color: #FF5B0A;
+}
 .javascript-out {
   border: solid #edd403;
 }
 .javascript {
   background-color: #edd403;
 }
-.html-text {
-  color: #FF5B0A;
-}
 .javascript-text {
   color: #edd403;
+}
+.python-out {
+  border: solid #4B8BBE;
+}
+.python {
+  background-color: #FFE873;
+}
+.python-text {
+  color: #4B8BBE;
+}
+.c-out {
+  border: solid dimgray;
+}
+.c {
+  background-color: dimgray;
+}
+.c-text {
+  color: dimgray;
 }
